@@ -3,6 +3,7 @@
 const horloge = function() {
     
     let date = new Date();
+    let TempsPasse = 0;
 
     let heure = date.getHours();
     let minutes = date.getMinutes();
